@@ -12,7 +12,7 @@ else:
 
 x = torch.rand(10000, 10000, device=device)
 y = torch.rand(10000, 10000, device=device)
-
+#dddd
 if use_gpu:
     start_time_gpu = time.time()
     z = torch.matmul(x, y)
