@@ -9,7 +9,7 @@ if use_gpu:
 else:
     print("CUDA is not available.")
     device = torch.device("cpu")
-
+#인터프린터는 무엇?
 x = torch.rand(10000, 10000, device=device)
 y = torch.rand(10000, 10000, device=device)
 #dddd
